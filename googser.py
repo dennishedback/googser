@@ -96,7 +96,6 @@ def search(search_term, conf):
                   "Gecko/20100101 Firefox/10.0")
     base_uri = ("https://www.google.com/search?hl=" + conf.lang  + "&q=" +
                 urllib.parse.quote(search_term).replace("%20", "+"))
-    print(base_uri)
     results = []
     try:
         parser = GoogserHTMLParser(strict=False)
