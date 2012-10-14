@@ -8,7 +8,6 @@ import urllib.error
 import html.parser
 import time
 import random
-import os.path
 
 
 class Configuration:
